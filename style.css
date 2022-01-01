@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: hsl(214, 59%, 62%);
+
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: hsl(214, 59%, 62%);
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+
+}
+.logo{
+    flex: 1 1 auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 30px;
+}
+a{
+    margin: 20px;
+    color: #000;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: rgb(14, 49, 167);
+}
+.banner-area{
+    position: relative;
+    background-image: url(backgroundimage.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    
+}
+.About, .Viewpoint-area, .Shoppingcenter-area, .Contacts {
+    position: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+}
+.text-part{
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+}
+h1{
+    font-size: 50px;
+    font-family: Audiowide;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.ol{
+
+}
